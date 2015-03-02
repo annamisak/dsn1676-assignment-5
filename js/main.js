@@ -12,5 +12,8 @@ $form.on('submit', function (e) {
     $li.append($todoH2);
     $add.append($li);
     
+});
 
+$add.on('click', 'li', function () {
+    $(this).toggleClass('strike-through');
 });
