@@ -21,6 +21,8 @@ body {
     margin: 1em;
     width: 80%;
     background-color: #c7eff1;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .title {
