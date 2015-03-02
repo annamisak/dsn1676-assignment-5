@@ -1,10 +1,15 @@
 var $form = $('.form');
+var $todo = $('.to-do');
+var $add = $('.add');
+var $button = $('.add-button');
 
-
-$form.on('submit' function () {
+$form.on('submit', function (e) {
     e.preventDefault();
     
-    console.log('Submited');
+    var $li = $('<li>');
+    var $todoH2 = $('<h2>').html($todo.val());
+
+    console.log($todoH2);
     
 
 });
