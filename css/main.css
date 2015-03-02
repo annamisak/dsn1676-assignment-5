@@ -3,7 +3,7 @@ html {
     
     color: black;
     font: normal 100%/1.5;
-    background-color: #e1e1e1;
+    background-color: #9cd8dc;
 }
 
 *, *:before, *:after {
@@ -17,8 +17,10 @@ body {
 
 .border {
     border-radius: 20px;
-    border: 4px solid black;
+    border: 2px solid white;
     margin: 1em;
+    width: 80%;
+    background-color: #c7eff1;
 }
 
 .title {
@@ -29,16 +31,18 @@ body {
 
 .form {
     text-align: center;
+    padding: 1em;
 }
 
 .strike-through {
     text-decoration: line-through;
-    color: grey;
+    color: #9cd8dc;
 }
 
 ol {
     text-align: center;
-    width: 80%;
+    width: 100%;
+    padding-left: 1em;
 }
 
 .list {
@@ -47,5 +51,36 @@ ol {
 
 input {
     height: 40px;
-    width: 200px;
+    width: 80%;
+    border: 2px solid #9cd8dc;
+    margin: 0;
+}
+
+.add-button {
+    height: 42px;
+    margin: 0;
+    width: 70px;
+    border: 1px solid white;
+    border-radius: 0 5px 5px 0;
+    font-family: serif; 
+    background-color: #9cd8dc;
+    font-size: 1em;
+}
+
+.remove {
+    margin: 0;
+    padding: 1em;
+    font-family: serif; 
+}
+
+li {
+    list-style-type: none;
+}
+
+h2 {
+    text-align: left;
+    width: auto;
+    padding-top: .5em;
+    font-size: 1em;
+    font-style: normal;
 }
