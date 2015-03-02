@@ -30,5 +30,6 @@ $form.on('submit' function (e) {
     e.preventDefault();
     
     var $li = $('<li>')
+    var $addH2 = $('<h2>').html($add.val());
     
 });
