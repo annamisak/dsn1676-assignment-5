@@ -26,3 +26,9 @@ var $todo = $('.to-do');
 var $add = $('.add');
 var $button = $('.add-button');
 
+$form.on('submit' function (e) {
+    e.preventDefault();
+    
+    var $li = $('<li>')
+    
+});
