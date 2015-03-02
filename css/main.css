@@ -45,10 +45,10 @@ ol {
 li {
     list-style-type: none;
     padding: .5em 0;
+    text-align: left;
 }
 
 h2 {
-    text-align: left;
     width: auto;
     padding-top: 1em;
     margin: 0;
