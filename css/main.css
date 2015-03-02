@@ -1,0 +1,51 @@
+html {
+    box-sizing: border-box;
+    
+    color: black;
+    font: normal 100%/1.5;
+    background-color: #e1e1e1;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 1em;
+}
+
+.border {
+    border-radius: 20px;
+    border: 4px solid black;
+    margin: 1em;
+}
+
+.title {
+    display: block;
+    text-align: center;
+    font-size: 2em;
+}
+
+.form {
+    text-align: center;
+}
+
+.strike-through {
+    text-decoration: line-through;
+    color: grey;
+}
+
+ol {
+    text-align: center;
+    width: 80%;
+}
+
+.list {
+    background-color: white;
+}
+
+input {
+    height: 40px;
+    width: 200px;
+}
