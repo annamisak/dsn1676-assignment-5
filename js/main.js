@@ -29,7 +29,13 @@ var $button = $('.add-button');
 $form.on('submit' function (e) {
     e.preventDefault();
     
-    var $li = $('<li>')
+    var $li = $('<li>'); 
     var $addH2 = $('<h2>').html($add.val());
+    var $button = $('<button>'); 
     
+    $button.html('x');
+    $button.addClass ('select');
+    
+    $button.on('click', function() {
+    $li.remove();
 });
