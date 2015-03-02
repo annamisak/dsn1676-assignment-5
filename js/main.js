@@ -8,8 +8,9 @@ $form.on('submit', function (e) {
     
     var $li = $('<li>');
     var $todoH2 = $('<h2>').html($todo.val());
-
-    console.log($todoH2);
+    
+    $li.append($todoH2);
+    $add.append($li);
     
 
 });
