@@ -8,10 +8,16 @@ $form.on('submit', function (e) {
     
     var $li = $('<li>');
     var $todoH2 = $('<h2>').html($todo.val());
+    var $button = $('<button>');
+    $button.html('x');
     
-    $li.append($todoH2);
+    $li.append($todoH2).append($button);
     $add.append($li);
     
+    $button.on('click', function () {
+    $li.remove();
+});
+
 });
 
 $add.on('click', 'li', function () {
