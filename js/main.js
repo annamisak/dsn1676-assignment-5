@@ -11,7 +11,7 @@ $form.on('submit', function (e) {
     var $button = $('<button>');
     $button.html('x');
     
-    $button.addClass ('remove');
+    $button.addClass('remove');
     
     $li.append($todoH2).append($button);
     $add.append($li);
